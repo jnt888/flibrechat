@@ -9,12 +9,8 @@
 # Specific patterns to ignore
 data-node
 meili_data*
-librechat*
 Dockerfile*
 docs
 
 # Ignore all hidden files
 .*
-
-# Include the deployment config required by LibreChat
-!librechat.yaml
