@@ -15,3 +15,6 @@ docs
 
 # Ignore all hidden files
 .*
+
+# Include the deployment config required by LibreChat
+!librechat.yaml
