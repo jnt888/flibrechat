@@ -1,5 +1,18 @@
 version: 1.3.13
 
+fileConfig:
+  serverFileSizeLimit: 25
+  fileTokenLimit: 100000
+  endpoints:
+    default:
+      fileLimit: 50
+      fileSizeLimit: 20
+      totalSizeLimit: 200
+    DeepSeek:
+      fileLimit: 50
+      fileSizeLimit: 20
+      totalSizeLimit: 200
+
 endpoints:
   custom:
     - name: "DeepSeek"
