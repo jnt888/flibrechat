@@ -1,6 +1,12 @@
 version: 1.3.13
 
+interface:
+  fileSearch: true
+
 endpoints:
+  agents:
+    capabilities:
+      - file_search
   custom:
     - name: "DeepSeek"
       apiKey: "${DEEPSEEK_API_KEY}"
