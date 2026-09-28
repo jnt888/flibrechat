@@ -4,7 +4,7 @@ endpoints:
   custom:
     - name: "DeepSeek"
       apiKey: "${DEEPSEEK_API_KEY}"
-      baseURL: "https://api.deepseek.com/v1"
+      baseURL: "https://vuwoo-deepseek-gateway-production.up.railway.app/v1"
       models:
         default:
           - "deepseek-chat"
